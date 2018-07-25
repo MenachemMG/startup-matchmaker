@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i|Oswald:700|Source+Sans+Pro:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -11,13 +12,11 @@
 	<header>
 		<h1>Startup Matchmaker</h1>
 		<nav>
-			<ul>
-				<li><a href="pages/developers.html" class="caps">DEVELOPERS</a></li>
-				<li><a href="pages/designers.html"class="caps">DESIGNERS</a></li>
-				<li><a href="pages/how-it-works.html">How It Works</a></li>
-				<li><a href="pages/our-team.html">Our Team</a></li>
-				<li><a href="pages/blog.html">Blog</a></li>
-			</ul>
+			<a href="pages/developers.html" class="caps">DEVELOPERS</a>
+			<a href="pages/designers.html"class="caps">DESIGNERS</a>
+			<a href="pages/how-it-works.html">How It Works</a>
+			<a href="pages/our-team.html">Our Team</a>
+			<a href="pages/blog.html">Blog</a>
 		</nav>
 	</header>
 	<div class="tagline">
@@ -28,7 +27,7 @@
 			<h2>Meet your Match!</h2>
 			<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the place for designers and developers to find each other.</p>
 			<form action="profile.txt" method="post">
-				<input type="submit" name="button" value="CREATE A PROFILE"  id="submit">
+				<input type="submit" name="button" value="CREATE A PROFILE"  class="submit">
 			</form>
 		</div>
 	</div>
@@ -37,26 +36,26 @@
 			<h2>Create a Profile</h2>
 			<p>Are you a designer? Developer? Put yourself out ther so that others can find you!</p>
 			<form action="profile.txt" method="post">
-				<input type="submit" name="button" value="SIGN UP NOW" id="submit">
+				<input type="submit" name="button" value="SIGN UP NOW" class="submit grey">
 			</form>
 		</div>
 		<div class="left">
 			<h2>Find a Developer</h2>
 			<p>Looking for a fantastic developer to work with on the next big thing? Look no further.</p>
 			<form action="pages/developers.html" method="post">
-				<input type="submit" name="button" value="START YOUR SEARCH" id="submit">
+				<input type="submit" name="button" value="START YOUR SEARCH" class="submit grey">
 			</form>
 		</div>
 		<div>
 			<h2>Find a Designer</h2>
 			<p>Need someone who can make a product intuitive and appealing? Get ready.</p>
 			<form action="pages/designers.html" method="post">
-				<input type="submit" name="button" value="START YOUR SEARCH" id="submit">
+				<input type="submit" name="button" value="START YOUR SEARCH" class="submit grey">
 			</form>
 		</div>
 	</section>
 	<footer>
-		&copy; 2013 Startup Matchmaker. Made in NY.
+		<p>&copy; 2013 Startup Matchmaker. Made in NY.</p>
 	</footer>
 </body>
 </html>
