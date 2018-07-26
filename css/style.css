@@ -149,24 +149,19 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
-	body {
-		font-size: 20px;
-	}
 
 	header {
-		width: 100%;
-		flex-direction: column;
-		justify-content: center;
+		align-items: flex-end;
+		justify-content: space-between;
 	}
 
 	header h1 {
-		text-align: center;
+		margin: 5% 0 0 1%;
+		font-size: 1.5em;
 	}
 
 	nav {
-		width: 100%;
-		flex-direction: column;
-		align-items: center;
+		display: none;
 	}
 
 	nav a {
@@ -174,21 +169,15 @@ footer p {
 	}
 
 	.tagline {
-		height: auto;
+		display: none;
 	}
 
-	.tagline p {
-		padding: 0 2%;
-		text-align: center;
-	}
-
-	.profile {
-		align-items: flex-end; 
-		justify-content: center;
+	.hidetext {
+		display: none;
 	}
 
 	.profilebox {
-		width: 90%;
+		width: 70%;
 	}
 
 	section {
@@ -198,7 +187,6 @@ footer p {
 
 	.left {
 		border: none;
-		border-bottom: 1px solid #ddd;
 	}
 
 	section div {
