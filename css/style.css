@@ -20,10 +20,17 @@ header {
 	border-bottom: 5px solid #fdf731;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+
+header a {
+	text-decoration: none;
+	display: inline-block;
+	white-space: nowrap;
 }
 
 header h1 {
+	margin: 0 2%;
 	color: #fdf731;
 	font-family: Merriweather, serif;
 	font-weight: 700;
@@ -31,17 +38,24 @@ header h1 {
 }
 
 nav {
+	height: 100%;
 	width: 55%;
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }
 
 nav a {
+	padding: 4% 0;
 	display: inline-block;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.25em;
 	font-family: "Source Sans Pro", sans-serif;
+}
+
+nav a:active {
+	background: rgba(255,255,255,.6);
 }
 
 .caps {
@@ -118,7 +132,11 @@ p {
 
 section {
 	display: flex;
-	padding: 5%;
+	padding: 2.5%;
+	align-content: space-around;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 100%;
 }
 
 .left {
@@ -131,7 +149,31 @@ section {
 }
 
 section div {
-	padding: 0 2%;
+	background: #fff;
+	padding: 1% 1%;
+	margin: .5%;
+}
+
+.imagebox {
+	margin: 0 auto;
+	padding: 0;
+	height: 280px;
+	width: 280px;
+	background-image: url(../images/placeholder.png);
+}
+
+.imagebox img {
+	height: 280px;
+	width: 280px;
+}
+
+.skill {
+	color: #fff;
+	background-color: #686868;
+	font-size: 14px;
+	border-radius: 12px;
+	padding: 0 9px;
+	text-align: center;
 }
 
 footer {
@@ -164,6 +206,21 @@ footer p {
 		display: none;
 	}
 
+	.hamburger {
+		margin: 2% 5%;
+		width: 20%;
+		height: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.hamburger div {
+ 		height: 5px;
+		background: #fdf731;
+		border-radius: 4px; 
+	}
+
 	nav a {
 		padding: 2% 0;
 	}
@@ -192,4 +249,16 @@ footer p {
 	section div {
 		padding: 2%;
 	}
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+	header a {
+		white-space: pre-wrap;
+	}
+
+    nav a {
+    	margin: 0 2%;
+    	text-align: center;
+    }
+
 }
