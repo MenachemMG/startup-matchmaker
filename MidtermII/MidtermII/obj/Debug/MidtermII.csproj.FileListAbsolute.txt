@@ -1,0 +1,14 @@
+C:\Users\ynovi\OneDrive\Documents\Touro\2018_b_Fall\MCON368\MidtermII\MidtermII\bin\Debug\MidtermII.exe.config
+C:\Users\ynovi\OneDrive\Documents\Touro\2018_b_Fall\MCON368\MidtermII\MidtermII\bin\Debug\MidtermII.exe
+C:\Users\ynovi\OneDrive\Documents\Touro\2018_b_Fall\MCON368\MidtermII\MidtermII\bin\Debug\MidtermII.pdb
+C:\Users\ynovi\OneDrive\Documents\Touro\2018_b_Fall\MCON368\MidtermII\MidtermII\obj\Debug\MidtermII.csprojResolveAssemblyReference.cache
+C:\Users\ynovi\OneDrive\Documents\Touro\2018_b_Fall\MCON368\MidtermII\MidtermII\obj\Debug\MidtermII.csproj.CoreCompileInputs.cache
+C:\Users\ynovi\OneDrive\Documents\Touro\2018_b_Fall\MCON368\MidtermII\MidtermII\obj\Debug\MidtermII.exe
+C:\Users\ynovi\OneDrive\Documents\Touro\2018_b_Fall\MCON368\MidtermII\MidtermII\obj\Debug\MidtermII.pdb
+C:\Users\Administrator\Downloads\MidtermII\MidtermII\MidtermII\bin\Debug\MidtermII.exe.config
+C:\Users\Administrator\Downloads\MidtermII\MidtermII\MidtermII\bin\Debug\MidtermII.exe
+C:\Users\Administrator\Downloads\MidtermII\MidtermII\MidtermII\bin\Debug\MidtermII.pdb
+C:\Users\Administrator\Downloads\MidtermII\MidtermII\MidtermII\obj\Debug\MidtermII.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\MidtermII\MidtermII\MidtermII\obj\Debug\MidtermII.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\MidtermII\MidtermII\MidtermII\obj\Debug\MidtermII.exe
+C:\Users\Administrator\Downloads\MidtermII\MidtermII\MidtermII\obj\Debug\MidtermII.pdb
